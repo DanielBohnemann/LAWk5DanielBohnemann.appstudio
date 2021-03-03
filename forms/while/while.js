@@ -1,5 +1,10 @@
-let num = 1
-while (num < 10) {
-  console.log(`The is loop iteration ${num}`)
-  num++
+//this is the first program
+
+let runLoop = 'y'
+i = 1
+
+while (runLoop == 'y') {
+  runLoop = prompt("Do you want to keep running (y/n): ")
+  console.log(`This is loop iteration ${i}`)
+  i++
   }
